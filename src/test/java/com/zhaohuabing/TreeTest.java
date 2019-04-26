@@ -9,7 +9,7 @@ import org.junit.Test;
 public class TreeTest {
   /** Rigorous Test :-) */
   @Test
-  public void testWFS() {
+  public void testBFS() {
     Tree tree = this.constructTree();
     List<Node> result = tree.breadthFirstSearch();
     System.out.println(result);
