@@ -39,6 +39,20 @@ public class TreeTest {
     assertEquals(children.get(2).getName(), "Child3");
   }
 
+  /**
+   * Create a tree for testing
+   *           A
+   *          /|\
+   *         / | \
+   *        B  C  D
+   *          /\   \
+   *         /  \   \
+   *        E    F   G
+   *                 /\
+   *                /  \
+   *               H    I
+   *
+   */
   private Tree constructTree() {
     // root
     Node a = new Node("A");
