@@ -2,7 +2,7 @@
 Java implementation of breadth first search for tree data structure
 
 test case
-```
+
                   A
                  /|\
                 / | \ 
@@ -13,5 +13,5 @@ test case
                         /\
                        /  \ 
                       H    I
-```                      
+                     
 Result: A B C D E F G H I
